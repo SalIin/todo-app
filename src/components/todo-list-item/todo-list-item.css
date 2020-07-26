@@ -1,0 +1,48 @@
+button {
+   transition: all .3s ease;
+}
+.delete-btn {
+   border: none;
+   background-color: transparent;
+   margin-right: 15px;
+}
+.important-btn {
+   border: none;
+   background-color: transparent;
+}
+.important-btn:active,
+.delete-btn:active,
+.add-todo-btn:active {
+   outline: none;
+   transform: scale(2);
+}
+.important-btn:focus,
+.delete-btn:focus {
+   outline: none;
+}
+.delete-btn i,
+.important-btn i {
+   font-size: 20px;
+   color: #333;
+   transition: all .3s ease;
+}
+.delete-btn:hover i {
+   color: tomato;
+}
+.important-btn:hover i {
+   color: #01a9b4;
+}
+.label {
+   cursor: pointer;
+   user-select: none;
+}
+.done {
+   text-decoration: line-through;
+}
+.important {
+   font-weight: 600;
+   color: #01a9b4;
+}
+.todo-list-item.important .important-btn i {
+   color: #01a9b4;
+}

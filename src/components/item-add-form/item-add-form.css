@@ -1,0 +1,20 @@
+.add-todo-btn {
+   border: none;
+   background-color: transparent;
+   margin-right: 18px;
+}
+.add-todo button:focus {
+   outline: none;
+}
+.add-todo i {
+   color: #333;
+}
+.todo-label {
+   border: 1px solid #dfdfdf;
+   border-radius: 3px;
+}
+.todo-label:focus {
+   border: 1px solid #dfdfdf;
+   outline: 1px solid #dfdfdf;
+   box-shadow: none;
+}

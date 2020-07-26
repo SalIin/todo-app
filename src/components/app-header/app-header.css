@@ -1,0 +1,4 @@
+.app-header__title,
+.app-header__done-info {
+   user-select: none;
+}

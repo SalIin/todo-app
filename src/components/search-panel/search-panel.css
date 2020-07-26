@@ -1,0 +1,8 @@
+.search {
+   border: 1px solid #dfdfdf;
+   border-radius: 3px;
+}
+.search:focus {
+   outline: 1px solid #dfdfdf;
+   
+}
